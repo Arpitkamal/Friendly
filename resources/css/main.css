@@ -1,26 +1,30 @@
 body{
     background-color:#dde1ed ;
 }
-#navbar{
-    margin-bottom: 10px;
+#my-navbcolor{
     background-color: #415e9b;
-    height: 42px;
+}
 
+#my-navbcolor a{
+    color: white !important;
 }
-.red ,.green, .blue{
-    height: 500px;
 
+.search-width{
+    max-width: 400px;
+    min-width: 400px;
 }
-.red{
 
-    background-color: red;
+#dark-coloricon span{
+    color: #0D1325;
+    font-size: 20px;
 }
-.green{
-    background-color: pink;
+
+.icon-social{
+    font-size: 30px !important;
+    color: white;
+    padding: 10px;
 }
-.blue{
-    background-color: aqua;
-}
+
 .footer{
     margin-top: 10px;
     height: 42px;
