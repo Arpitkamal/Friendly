@@ -1,0 +1,28 @@
+body{
+    background-color:#dde1ed ;
+}
+#navbar{
+    margin-bottom: 10px;
+    background-color: #415e9b;
+    height: 42px;
+
+}
+.red ,.green, .blue{
+    height: 500px;
+
+}
+.red{
+
+    background-color: red;
+}
+.green{
+    background-color: pink;
+}
+.blue{
+    background-color: aqua;
+}
+.footer{
+    margin-top: 10px;
+    height: 42px;
+    background-color: black;
+}
