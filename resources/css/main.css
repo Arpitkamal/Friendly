@@ -24,8 +24,24 @@ body{
     color: white;
     padding: 10px;
 }
+/*for col1-md-2*/
 .col1-paragraph{
     padding: 20px 15px 0 15px;
+}
+.col1-li-color a{
+    color: black !important;
+}
+/*for col2-md-7 */
+.like-comment-margin .glyphicon{
+    margin-left: 15px;
+    margin-right: 4px;
+}
+.card-margin{
+    margin-bottom: 10px;
+}
+.text-in-post{
+    margin-bottom: 15px;
+    margin-top: 0;
 }
 
 .footer{
