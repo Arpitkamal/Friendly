@@ -24,6 +24,9 @@ body{
     color: white;
     padding: 10px;
 }
+.col1-paragraph{
+    padding: 20px 15px 0 15px;
+}
 
 .footer{
     margin-top: 10px;
