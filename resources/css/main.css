@@ -24,6 +24,14 @@ body{
     color: white;
     padding: 10px;
 }
+/* my image in navbar */
+.nav-image{
+    padding: 18px 0 0 0!important;
+    margin-bottom: 0;
+    background-color: #415e9b;
+    border: none;
+
+}
 /*for col1-md-2*/
 .col1-paragraph{
     padding: 20px 15px 0 15px;
