@@ -43,7 +43,25 @@ body{
     margin-bottom: 15px;
     margin-top: 0;
 }
+.post-margin{
+    margin-bottom: 15px;
+}
+.post-section,.ads{
+    height: 700px;
+    overflow: auto;
+}
+.post-section::-webkit-scrollbar {
+    display: none;
+}
+.ads::-webkit-scrollbar{
+    display: none;
+}
+.embed-responsive-item{
+    height: 500px;
+    width: 500px;
+}
 
+/*footer*/
 .footer{
     margin-top: 10px;
     height: 42px;
