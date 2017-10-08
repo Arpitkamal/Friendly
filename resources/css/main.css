@@ -32,9 +32,6 @@ body{
     border: none;
     border-radius: 50% !important;
 }
-.col-md-7{
-    background-color: #dde1ed !important;
-}
 
 /*for col1-md-2*/
 .col1-paragraph{
@@ -44,7 +41,6 @@ body{
     color: black !important;
 }
 /*for col2-md-7 */
-
 .like-comment-margin .glyphicon{
     margin-left: 15px;
     margin-right: 4px;
@@ -92,6 +88,12 @@ body{
     border: none !important;
     box-shadow: none !important;
     outline: none;   /*ye pushna hai*/
+}
+/*col-3*/
+.box-margin{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 250px;
 }
 /*footer*/
 .footer{

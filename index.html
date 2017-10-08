@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="resources/vender/css/bootstrap.css">
     <link rel="stylesheet" href="resources/css/main.css">
     <link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css">
+    <script src="resources/vender/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head>
 <body>
 <nav class="navbar navbar-default " id="my-navbcolor">
@@ -50,7 +54,7 @@
 
     <div class="container">
         <article class="row article">
-            <section class="col-md-2 hidden-xs ">  <!--content will be hidden in extra small screen -->
+            <section class="col-md-2 hidden-xs hidden-sm">  <!--content will be hidden in extra small screen -->
                 <div>
                     <ul class="nav nav-pills nav-stacked col1-li-color">
 
@@ -74,8 +78,8 @@
                     </ul>
                 </div>
             </section>
-            <section class="col-md-7 post-section">
-                <div class="panel panel-default card-margin col2-m-7background-color">
+            <section class="col-sm-8 col-md-7  post-section ">
+                <div class="panel panel-default card-margin ">
                     <div class="panel-heading">
                         <h3 class="panel-title">
                             <a href="#">Arpit kamal</a>
@@ -176,46 +180,82 @@
                     </div>
                     <div class="panel-footer">Add a comment..</div>
                 </div>
+                </div>
             </section>
-            <section class="col-md-3 ads">
-                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, mollitia odit porro provident
-                    ullam voluptates! Consequatur est excepturi qui! Consequatur ducimus earum, iusto minus officiis
-                    quibusdam ratione temporibus velit voluptate?
-                </div>
-                <div>Alias aut laudantium natus nulla voluptas! Ab consequuntur dicta eaque earum esse facere, fuga
-                    inventore itaque magnam mollitia nemo, odio quasi quis, sit tempore unde vel velit? Amet eum, id!
-                </div>
-                <div>Consectetur labore nobis quam quo! Alias aliquid animi aut beatae, debitis dicta dolore error est
-                    ex exercitationem expedita facilis natus, nemo, nisi optio perspiciatis repellat reprehenderit sit
-                    tempora ut? Architecto.
-                </div>
-                <div>Accusamus alias aperiam asperiores corporis dolor error esse exercitationem explicabo facilis
-                    inventore laboriosam laudantium nihil numquam odio, vitae? Assumenda et ex excepturi fugiat illo
-                    labore magni modi odio voluptas voluptatum?
-                </div>
-                <div>A aperiam asperiores consequuntur dolores ex, excepturi magni nemo odit sunt temporibus unde vel.
-                    Adipisci asperiores assumenda cumque doloremque eum exercitationem inventore ratione similique.
-                    Minus nihil quia quis vel voluptates!
-                </div>
-                <div>A at eius magnam mollitia necessitatibus perferendis quis quos reiciendis, saepe voluptas! Amet
-                    animi aut dicta expedita mollitia natus, nemo praesentium sed sunt unde. Delectus impedit maiores
-                    nihil quaerat suscipit.
-                </div>
-                <div>Accusantium amet asperiores at atque blanditiis consectetur dignissimos dolores, esse fuga fugiat
-                    incidunt nisi porro praesentium quae quam sapiente sit suscipit ut vero vitae. Facere fuga nemo
-                    omnis quis sunt!
-                </div>
-                <div>Accusamus dolore doloribus, fuga laboriosam nam nesciunt odit quam quasi quibusdam repellat
-                    reprehenderit, vel veritatis? Accusamus cumque dolor ex ipsa laudantium omnis quasi recusandae. Aut
-                    commodi doloribus facilis quibusdam sunt.
-                </div>
-                <div>Assumenda beatae cumque deserunt, dolor earum enim fuga fugiat inventore itaque laborum minima
-                    necessitatibus nemo neque nisi nulla odit placeat praesentium quaerat quis reiciendis sed tempora
-                    tenetur, ut vel voluptates.
-                </div>
-                <div>Adipisci animi aperiam asperiores aspernatur autem consectetur distinctio dolorem eius eveniet
-                    excepturi facilis fuga, fugit in ipsam nulla odio porro possimus quaerat qui quia quidem recusandae
-                    repellendus rerum soluta, vitae!
+            <section class="col-sm-4 col-md-3 ads">
+                <div class="container">
+                    <h2>Trending</h2>
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#top-trends"><i class="fa fa-line-chart text-muted" aria-hidden="true"></i></a></li>
+                        <li><a data-toggle="tab" href="#politics"><i class="fa fa-university text-muted" aria-hidden="true"></i></a></li>
+                        <li><a data-toggle="tab" href="#sports"><i class="fa fa-futbol-o text-muted" aria-hidden="true"></i></a></li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div id="top-trends" class="tab-pane fade in active">
+                            <h3>Top trends</h3>
+                            <div class="list-group box-margin">
+                                <a href="#" class="list-group-item active">
+                                    <h4 class="list-group-item-heading">List group item heading</h4>
+                                    <p class="list-group-item-text">something</p>
+                                </a>
+                            </div>
+                            <div class="list-group box-margin">
+                                <a href="#" class="list-group-item active">
+                                    <h4 class="list-group-item-heading">List group item heading</h4>
+                                    <p class="list-group-item-text">someting</p>
+                                </a>
+                            </div>
+                            <div class="list-group box-margin">
+                                <a href="#" class="list-group-item active">
+                                    <h4 class="list-group-item-heading">List group item heading</h4>
+                                    <p class="list-group-item-text">something</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div id="politics" class="tab-pane fade">
+                            <h3>Politics</h3>
+                            <div class="list-group box-margin">
+                                <a href="#" class="list-group-item active">
+                                    <h4 class="list-group-item-heading">List group item heading</h4>
+                                    <p class="list-group-item-text">something</p>
+                                </a>
+                            </div>
+                            <div class="list-group box-margin">
+                                <a href="#" class="list-group-item active">
+                                    <h4 class="list-group-item-heading">List group item heading</h4>
+                                    <p class="list-group-item-text">somethng</p>
+                                </a>
+                            </div>
+                            <div class="list-group box-margin">
+                                <a href="#" class="list-group-item active">
+                                    <h4 class="list-group-item-heading">List group item heading</h4>
+                                    <p class="list-group-item-text">something</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div id="sports" class="tab-pane fade">
+                            <h3>Sports</h3>
+                            <div class="list-group box-margin">
+                                <a href="#" class="list-group-item active">
+                                    <h4 class="list-group-item-heading">List group item heading</h4>
+                                    <p class="list-group-item-text">something</p>
+                                </a>
+                            </div>
+                            <div class="list-group box-margin">
+                                <a href="#" class="list-group-item active">
+                                    <h4 class="list-group-item-heading">List group item heading</h4>
+                                    <p class="list-group-item-text">something</p>
+                                </a>
+                            </div>
+                            <div class="list-group box-margin">
+                                <a href="#" class="list-group-item active">
+                                    <h4 class="list-group-item-heading">List group item heading</h4>
+                                    <p class="list-group-item-text">something</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </article>
