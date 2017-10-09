@@ -1,5 +1,5 @@
 body{
-    background-color:#dde1ed ;
+    background-color:#dde1ed;
 }
 #my-navbcolor{
     background-color: #415e9b;
@@ -10,8 +10,24 @@ body{
 }
 
 .search-width{
-    max-width: 400px;
-    min-width: 400px;
+   max-width: 400px;
+   min-width: 400px;
+}
+
+@media (min-width: 768px) {
+    .search-width{
+        width: px;
+    }
+}
+@media (min-width: 924px) {
+    .search-width{
+        width: 300px;
+    }
+}
+@media (min-width: 1008px) {
+    .search-width{
+        width: 350px;
+    }
 }
 
 #dark-coloricon span{
@@ -26,19 +42,26 @@ body{
 }
 /* my image in navbar */
 .nav-image{
-    padding: 18px 0 0 0!important;
+    padding: 10px 0 0 0!important;
     margin-bottom: 0;
     background-color: #415e9b;
     border: none;
-    border-radius: 50% !important;
 }
-
+.margin-1{
+    margin-top: 60px;
+}
+.circular-image{
+    border-radius: 50%;
+}
 /*for col1-md-2*/
 .col1-paragraph{
     padding: 20px 15px 0 15px;
 }
 .col1-li-color a{
     color: black !important;
+}
+.col1-md-3{
+    padding-right: 2px;
 }
 /*for col2-md-7 */
 .like-comment-margin .glyphicon{
@@ -89,11 +112,15 @@ body{
     box-shadow: none !important;
     outline: none;   /*ye pushna hai*/
 }
+.title-content span{
+    margin-left: 5px;
+
+}
 /*col-3*/
 .box-margin{
     margin-top: 5px;
     margin-bottom: 5px;
-    width: 250px;
+    overflow: hidden;
 }
 /*footer*/
 .footer{
