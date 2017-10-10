@@ -10,25 +10,16 @@ body{
 }
 
 .search-width{
-   max-width: 400px;
-   min-width: 400px;
+    max-width: 400px;
+    min-width: 400px;
+}
+@media (max-width: 786px) {
+    .search-width{
+        max-width: 200px;
+        min-width: 200px;
+    }
 }
 
-@media (min-width: 768px) {
-    .search-width{
-        width: px;
-    }
-}
-@media (min-width: 924px) {
-    .search-width{
-        width: 300px;
-    }
-}
-@media (min-width: 1008px) {
-    .search-width{
-        width: 350px;
-    }
-}
 
 #dark-coloricon span{
     color: #0D1325;
@@ -52,6 +43,11 @@ body{
 }
 .circular-image{
     border-radius: 50%;
+}
+.badge-notify{
+    background:red;
+    position:absolute;
+    top:0;
 }
 /*for col1-md-2*/
 .col1-paragraph{
