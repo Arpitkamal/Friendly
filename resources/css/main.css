@@ -13,7 +13,7 @@ body{
     max-width: 400px;
     min-width: 400px;
 }
-@media (max-width: 1015px) {
+@media (max-width: 1024px) {
     .search-width{
         max-width:350px;
         min-width: 350px;
@@ -135,4 +135,26 @@ body{
     margin-top: 10px;
     height: 42px;
     background-color: black;
+}
+
+.notification{
+    position: relative;
+    color: white !important;
+}
+.badgenotifi{
+    position: relative;
+    bottom: 14px;
+    right: 10px;
+    background-color: #f43734;
+    color: white !important;
+    font-size: 16px !important;
+}
+.extra-padding{
+    padding: 15px 0 15px 0 !important;
+}
+.extra-padding-col1{
+    padding: 0;
+}
+.navbar-right .help{
+    padding: 15px 15px 15px 0;
 }
