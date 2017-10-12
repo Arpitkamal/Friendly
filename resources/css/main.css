@@ -164,15 +164,26 @@ body{
 .navbar-right .help{
     padding: 15px 15px 15px 0;
 }
-@media (max-width: 414px){
-    .navbar-mobile{
+@media (max-width: 414px) {
+    .navbar-mobile {
         display: inline-block !important;
     }
-    .search-width{
-        max-width: 300px !important;
-        min-width: 300px !important;
+
+    .search-width {
+        max-width: 275px !important;
+        min-width: 275px !important;
     }
-    .mobile-right-navbar{
-        padding: 0 15px 0 40px;
+
+    .mobile-right-navbar {
+        padding: 0 40px 0 40px;
+        font-size: 20px;
+        display: block;
+    }
+    .badge{
+        font-size: 20px;
+        background-color: #f43734;
+    }
+    .mobile-image-padding{
+        margin-right: 5px;
     }
 }
