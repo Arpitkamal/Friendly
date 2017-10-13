@@ -77,6 +77,9 @@ body{
 .col1-md-3{
     padding-right: 2px;
 }
+.col1-bottom-padding{
+    padding: 5px 5px 5px 15px;
+}
 /*for col2-md-7 */
 .like-comment-margin .glyphicon{
     margin-left: 15px;
