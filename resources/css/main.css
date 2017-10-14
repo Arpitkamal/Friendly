@@ -1,5 +1,9 @@
 body{
     background-color:#dde1ed;
+    font-family: inherit;
+}
+#fiendly{
+    font-family: inherit ;
 }
 #my-navbcolor{
     background-color: #415e9b;
@@ -8,10 +12,15 @@ body{
 #my-navbcolor a{
     color: white !important;
 }
-
+.navbar-box{
+    height: 42px !important;
+}
 .search-width {
     max-width: 400px;
     min-width: 400px;
+}
+.navbar-seacrch-margin{
+    margin-bottom: 0;
 }
 @media (max-width: 414px){
     .search-width{
@@ -31,10 +40,10 @@ body{
         min-width: 300px;
     }
 }
-@media (max-width: 835px) and (min-width: 787px) {
+@media (max-width: 863px) and (min-width: 787px) {
     .search-width{
-        max-width: 250px;
-        min-width: 250px;
+        max-width: 225px;
+        min-width: 225px;
     }
 }
 @media (max-width: 787px) and (min-width: 500px) {
@@ -43,7 +52,13 @@ body{
         min-width: 200px;
     }
 }
-
+#dark-coloricon{
+    height: 42px;
+}
+#dark-coloricon .glyphicon{
+    height: 24px;
+    width: 24px;
+}
 #dark-coloricon span{
     color: #0D1325;
     font-size: 20px;
@@ -53,6 +68,9 @@ body{
     font-size: 30px !important;
     color: white;
     padding: 10px;
+}
+.nav-bar-leftcontent-margin{
+    margin-right: 60px !important;
 }
 /* my image in navbar */
 .nav-image{
@@ -79,6 +97,13 @@ body{
 }
 .col1-bottom-padding{
     padding: 5px 5px 5px 15px;
+}
+.badge-size{
+    height: 18px;
+    width: 17px;
+    background-color: #dde1ed;
+    color: #777
+
 }
 /*for col2-md-7 */
 .like-comment-margin .glyphicon{
@@ -150,7 +175,9 @@ body{
     max-width: 60px;
     min-width: 60px;
 }
-
+.create-post-top span{
+    font-size: 17px;
+}
 /*col-3*/
 .box-margin{
     margin-top: 5px;
@@ -163,22 +190,32 @@ body{
     height: 42px;
     background-color: black;
 }
-
+.birthday-event .glyphicon{
+    color: coral;
+}
+.birthday-event{
+    font-size: 15px;
+}
 .notification{
     position: relative;
     color: white !important;
+
 }
 .badgenotifi{
     position: relative;
     bottom: 14px;
-    right: 10px;
+    right: 14px;
     background-color: #f43734;
     color: white !important;
-    font-size: 16px !important;
+    font-size: 12px !important;
+    border-radius: 15%;
+    padding: 3px 4px 3px 4px;
 }
 .extra-padding{
-    padding: 15px 0 15px 0 !important;
+    padding: 15px 3px 15px 3px !important;
 }
+
+
 .extra-padding-col1{
     padding: 0;
 }
