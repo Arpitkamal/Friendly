@@ -228,9 +228,6 @@ body{
 .tab-content > .active{
     display: block;
 }
-.tab-c > .tab-pane{
-    display: none;
-}
 /*footer*/
 .footer{
     margin-top: 10px;
