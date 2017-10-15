@@ -158,9 +158,16 @@ body{
     margin-left: 5px;
 
 }
+.col2-top-box{
+    word-spacing: -3px;
+}
+.col2-top-box b{
+    color: #365899;
+    font-size: 15px;
+}
 .col2-top-box .glyphicon{
     margin-right: 5px;
-
+    padding: 0 5px 0 5px;
 }
 .col2-top-box-footer{
     position: relative;
@@ -171,18 +178,58 @@ body{
     right: 15px;
     bottom: 7px;
     color: white;
-    background-color: #415e9b;
-    max-width: 60px;
-    min-width: 60px;
+    background-color: #4267b2;
+    max-width: 70px;
+    min-width: 70px;
+    border-radius: 10%;
+    border: none;
+    box-shadow: none;
+    padding: 3px 0 3px 0;
 }
 .create-post-top span{
     font-size: 17px;
+}
+.vertical-line{
+    border-right: thin solid #737373;
+}
+.header-box{
+    background-color: white !important;
 }
 /*col-3*/
 .box-margin{
     margin-top: 5px;
     margin-bottom: 5px;
     overflow: hidden;
+}
+.trending-box{
+    float: right !important;
+    padding-left: 90px;
+}
+.trending-extra-padding{
+    padding: 0 0 0 5px !important;
+}
+.trending-head-padding{
+    padding: 10px 3px 10px 5px !important;
+}
+.active-trending{
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+.extra-padding-trending-footer{
+    padding: 5px 5px 5px 5px !important;
+}
+.trending1-box{
+    float:  left !important;
+}
+.trending-paragraph{
+    padding-left: 25px;
+}
+.tab-content > .active{
+    display: block;
+}
+.tab-c > .tab-pane{
+    display: none;
 }
 /*footer*/
 .footer{
