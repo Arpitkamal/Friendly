@@ -442,3 +442,28 @@ body{
 .footer-color a{
     color: #2b669a;
 }
+.stories-box{
+    padding: 12px 12px 12px 12px !important;
+}
+.stories-box-img img{
+    border-radius: 50%;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border: 2px solid  #4080ff !important;
+    box-sizing: border-box ;
+    object-fit: cover;
+    object-position: center;
+    vertical-align: middle;
+}
+.stories-box-img span{
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 15px;
+}
+.stories-box-image-section div{
+    display: inline-block !important;
+    margin: 2px;
+}
+.stories-heading b{
+    padding-bottom: 12px;
+}
