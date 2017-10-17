@@ -236,7 +236,14 @@ body{
 }
 .col2-top-box .glyphicon{
     margin-right: 5px;
-    padding: 0 5px 0 5px;
+ 
+}
+.col2-top-box .vertical-line{
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+}
+.col2-top-box .glyphicon-picture{
+    margin-left: 10px;
 }
 .col2-top-box-footer{
     position: relative;
@@ -466,4 +473,27 @@ body{
 }
 .stories-heading b{
     padding-bottom: 12px;
+}
+.footer-col3 a{
+    padding: 0 !important;
+    color: #777;
+    background-color: transparent !important;
+    display: inline;
+}
+.footer-col3 a:hover{
+    color: #777;
+}
+.footer-col3{
+    padding: 0 12px 0 12px;
+}
+.footer-fb-copyright{
+    color: #777;
+    padding-left: 12px;
+}
+.margin-top-col3-box {
+    margin-top: 12px !important;
+    margin-bottom: 0 !important;
+}
+.margin-bottom-stories-box{
+    margin-bottom: 0 !important;
 }
