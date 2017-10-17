@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>friendly</title>
     <link rel="stylesheet" href="resources/vender/css/bootstrap.css">
     <link rel="stylesheet" href="resources/css/main.css">
     <link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css">
@@ -36,9 +36,9 @@
         <div class="collapse navbar-collapse nav-bar-leftcontent-margin" id="bs-example-navbar-collapse-1">
 
             <form class="navbar-form navbar-left navbar-seacrch-margin">
-                <div class="form-group navbar-mobile ">
-                    <input type="text" class="form-control search-width " placeholder="Search">
-                    <button type="submit" class="btn btn-default "><span class="glyphicon glyphicon-search"></span></button>
+                <div class="form-group navbar-mobile  ">
+                    <input type="text" class="form-control search-width " id="search-box" placeholder="Search">
+                    <button type="submit" class="btn btn-default " id="search-button"><span class="glyphicon glyphicon-search"></span></button>
                 </div>
 
             </form>
@@ -70,8 +70,8 @@
                     <ul class="nav nav-pills nav-stacked col1-li-color">
 
                     <li role="presentation"><a href="#" class="black-color"><img class="circular-image col1-md-3" src="https://pbs.twimg.com/profile_images/899522898393575424/mP_nwK7b_bigger.jpg" height="30" width="30" alt="something wrong.."> Arpit kamal</a></li>
-                    <li role="presentation"><a href="#"><i class="fa fa-newspaper-o" aria-hidden="true"></i> News feed <span class="badge badge-size pull-right">12</span></a></li>
-                    <li role="presentation"><a href="#"><span class="glyphicon glyphicon-comment"></span> Messages <span class="badge  badge-size pull-right">8</span></a></li>
+                    <li role="presentation"><a href="#" class="new-feed"><i class="fa fa-newspaper-o" aria-hidden="true"></i> News feed <span class="badge badge-size pull-right">12</span></a></li>
+                    <li role="presentation"><a href="#"><span class="glyphicon glyphicon-comment"></span>  Messages <span class="badge  badge-size pull-right">8</span></a></li>
                     <p class="col1-paragraph">Shortcuts</p>
                         <li role="presentation"><a href="#"><i class="fa fa-spotify" aria-hidden="true"></i> Spotify <span class="badge badge-size pull-right">20+</span></a></li>
                         <li role="presentation"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram<span class="badge badge-size pull-right">5</span></a></li>
@@ -81,7 +81,7 @@
                         <li role="presentation"><a href="#"><i class="fa fa-calendar-o" aria-hidden="true"></i> Events<span class="badge badge-size pull-right">7</span></a></li>
                         <li role="presentation"><a href="#"><i class="fa fa-file" aria-hidden="true"></i> Pages <span class="badge badge-size pull-right">3</span></a></li>
                         <li role="presentation"><a href="#"><i class="fa fa-users" aria-hidden="true"></i> Groups <span class="badge badge-size pull-right">6</span></a></li>
-                        <li role="presentation"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> FriendsLists<span class="badge badge-size pull-right">8</span></a></li>
+                        <li role="presentation"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> Friends Lists<span class="badge badge-size pull-right">8</span></a></li>
                         <p class="col1-paragraph">Insights</p>
                             <li role="presentation"><a href="#"><i class="fa fa-gamepad" aria-hidden="true"></i> Games <span class="badge badge-size pull-right">2</span></a></li>
                             <li role="presentation"><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i> On This Day</a></li>
@@ -102,9 +102,9 @@
                 <div class="panel panel-default card-margin">
                     <div class="panel-heading header-box">
                          <div class="panel-title col2-top-box">
-                             <span class="glyphicon glyphicon-camera vertical-line"><b> Photo/Video</b></span>
-                             <span class="glyphicon glyphicon-facetime-video vertical-line"><b> Live Video</b></span>
-                             <span class="glyphicon glyphicon-picture "><b> Photo/Video Album</b></span>
+                             <span class="glyphicon glyphicon-camera vertical-line"><span class="text"> Photo/Video</span></span>
+                             <span class="glyphicon glyphicon-facetime-video vertical-line"><span class="text"> Live Video</span></span>
+                             <span class="glyphicon glyphicon-picture "><span class="text"> Photo/Video Album</span></span>
                          </div>
                     </div>
                     <div class="panel-body">
@@ -121,7 +121,10 @@
                     </div>
                     <div class="panel-footer col2-top-box-footer">
                         <span>
-                            <input class="col2-top-box-input" type="button" value="Post">
+                             <button class="col2-top-box-input1"><i class="fa fa-user-plus" aria-hidden="true"></i> friends</button>
+                        </span>
+                        <span>
+                            <input class="col2-top-box-input2" type="button" value="Post">
                         </span>
                     </div>
                 </div>

@@ -15,6 +15,17 @@ body{
 .navbar-box{
     height: 42px !important;
 }
+#search-box{
+  position: relative;
+  height: 30px;
+}
+#search-button{
+    position:absolute;
+    left: 475px;
+    bottom: 12px;
+    width: 70px;
+    height: 30px;
+}
 .search-width {
     max-width: 400px;
     min-width: 400px;
@@ -91,6 +102,50 @@ body{
 }
 .col1-li-color a{
     color: black !important;
+}
+.col1-li-color li{
+    font-size: 14px;
+}
+.col1-li-color i{
+    font-size: 20px;
+}
+.col1-li-color .new-feed{
+    font-weight: bold;
+}
+.col1-li-color .fa-newspaper-o{
+    color: #2b669a;
+}
+.col1-li-color .glyphicon-comment{
+    color: #5c92ff;
+}
+.col1-li-color .fa-spotify{
+    color: #23cf5f;
+}
+.col1-li-color .fa-instagram{
+    color: #dd515a;
+}
+.col1-li-color .fa-twitter{
+    color: #00aced;
+}
+.col1-li-color .fa-calendar-o{
+    color: #f36b7e;
+}
+.col1-li-color .fa-users{
+    color: #5c92ff;
+}
+.col1-li-color .fa-facebook{
+    color: #5c92ff;
+}
+.col1-li-color .fa-gamepad{
+    color: #777c87;
+}
+.col1-li-color .fa-hand-o-right{
+    color: #4080ff;
+}.col1-li-color .fa-calendar{
+    color: #f35e73;
+ }
+.col1-li-color .badge{
+    background-color: transparent;
 }
 .col1-md-3{
     margin-right: 2px;
@@ -174,9 +229,10 @@ body{
 .col2-top-box{
     word-spacing: -3px;
 }
-.col2-top-box b{
+.col2-top-box .text{
     color: #365899;
     font-size: 15px;
+    font-weight: bold;
 }
 .col2-top-box .glyphicon{
     margin-right: 5px;
@@ -186,8 +242,7 @@ body{
     position: relative;
     height: 40px;
 }
-
-.col2-top-box-input{
+.col2-top-box-input2{
     position: absolute;
     right: 15px;
     bottom: 7px;
@@ -198,7 +253,21 @@ body{
     border-radius: 10%;
     border: none;
     box-shadow: none;
+    outline: none;
     padding: 3px 0 3px 0;
+}
+.col2-top-box-input1{
+    position: absolute;
+    right: 90px;
+    bottom: 7px;
+    color: white;
+    background-color: #4267b2;
+    max-width: 90px;
+    border-radius: 10%;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    padding: 3px 7px 3px 7px;
 }
 .create-post-top span{
     font-size: 17px;
