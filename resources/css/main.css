@@ -230,7 +230,7 @@ body{
     word-spacing: -3px;
 }
 .col2-top-box .text{
-    color: #365899;
+    color: #4f5899;
     font-size: 15px;
     font-weight: bold;
 }
@@ -241,6 +241,15 @@ body{
 .col2-top-box-footer{
     position: relative;
     height: 40px;
+}
+.col2-top-box .glyphicon-camera{
+    color: #afb3b9;
+}
+.col2-top-box .glyphicon-facetime-video{
+    color: #afb3b9;
+}
+.col2-top-box .glyphicon-picture{
+    color: #4267b2;
 }
 .col2-top-box-input2{
     position: absolute;
@@ -267,7 +276,10 @@ body{
     border: none;
     box-shadow: none;
     outline: none;
-    padding: 3px 7px 3px 7px;
+    padding: 3px 10px 3px 10px;
+}
+.create-post-top{
+    height: 60px;
 }
 .create-post-top span{
     font-size: 17px;
@@ -277,6 +289,9 @@ body{
 }
 .header-box{
     background-color: white !important;
+}
+.display-create-post {
+    display: inline-block;
 }
 .load-button{
     text-align: center;
@@ -329,6 +344,12 @@ body{
 .tab-content b{
     color: #38599a;
 }
+.col3-padding{
+    padding: 0;
+}
+.suggested-box{
+    padding-bottom: 10px;
+}
 /*footer*/
 .footer{
     margin-top: 10px;
@@ -359,8 +380,33 @@ body{
 .extra-padding{
     padding: 15px 3px 15px 3px !important;
 }
-
-
+.suggested-box-head-left .see-all{
+  padding-left: 110px;
+  color: #4267b2;
+}
+.suggested-box-head-left{
+    padding: 10px 10px 10px 10px !important;
+}
+.padding-zero{
+    padding: 0 !important;
+}
+.suggested-box-body{
+    padding: 0;
+}
+.suggested-footer{
+    margin-top: 10px ;
+    margin-bottom: 10px;
+}
+.suggested-footer .main-heading{
+    color: #4267b2;
+}
+.like-page-button button{
+    border: none;
+    box-shadow: none;
+    outline: none;
+    border-radius: 5%;
+    font-weight: inherit;
+}
 .extra-padding-col1{
     padding: 0;
 }
