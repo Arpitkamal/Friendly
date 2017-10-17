@@ -15,17 +15,6 @@ body{
 .navbar-box{
     height: 42px !important;
 }
-#search-box{
-  position: relative;
-  height: 30px;
-}
-#search-button{
-    position:absolute;
-    left: 475px;
-    bottom: 12px;
-    width: 70px;
-    height: 30px;
-}
 .search-width {
     max-width: 400px;
     min-width: 400px;
@@ -51,16 +40,22 @@ body{
         min-width: 300px;
     }
 }
-@media (max-width: 863px) and (min-width: 787px) {
+@media (max-width: 881px) and (min-width: 807px) {
     .search-width{
         max-width: 225px;
         min-width: 225px;
     }
 }
-@media (max-width: 787px) and (min-width: 500px) {
+@media (max-width: 807px) and (min-width: 781px) {
     .search-width{
         max-width: 200px;
         min-width: 200px;
+    }
+}
+@media (max-width: 781px) and (min-width: 500px) {
+    .search-width{
+        max-width: 160px;
+        min-width: 160px;
     }
 }
 #dark-coloricon{
@@ -423,17 +418,42 @@ body{
 @media (max-width: 414px) {
     .navbar-mobile {
         display: inline-block !important;
+        padding: 10px 10px 10px 10px;
     }
-
+    .navbar-mobile input{
+        height: 30px;
+        float: left;
+    }
+    .navbar-left{
+        padding: 0px !important;
+    }
     .search-width {
-        max-width: 275px !important;
-        min-width: 275px !important;
+        max-width: 260px !important;
+        min-width: 260px !important;
     }
+    @media (max-width: 375px) and (min-width: 361px){
+        .search-width{
+            max-width: 220px !important;
+            min-width: 220px !important;
+        }
+    }
+    @media (max-width: 360px) and (min-width:321px){
+        .search-width{
+            max-width: 200px !important;
+            min-width: 200px !important;
+        }
 
+    }
+    @media (max-width: 320px) {
+        .search-width{
+            max-width: 170px !important;
+            min-width: 170px !important;
+        }
+    }
     .mobile-right-navbar {
-        padding: 0 40px 0 40px;
+        display: inline;
+        padding: 0 12px 0 12px;
         font-size: 20px;
-        display: block;
     }
     .badge{
         font-size: 20px;
@@ -442,7 +462,12 @@ body{
     .mobile-image-padding{
         margin-right: 5px;
     }
+    .container{
+        overflow: hidden !important;
+    }
+
 }
+
 .col1-bottom-padding a{
     color: #2b669a;
 }
@@ -496,4 +521,22 @@ body{
 }
 .margin-bottom-stories-box{
     margin-bottom: 0 !important;
+}
+.badge{
+    font-weight: lighter !important;
+}
+.padding-search{
+    padding: 0 !important;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+.padding-search-button{
+    padding: 0 !important;
+    height: 30px;
+    width: 60px;
+    margin-left: -8px;
+    border: none;
+    background-color: #f6f7f9;
+    
 }
