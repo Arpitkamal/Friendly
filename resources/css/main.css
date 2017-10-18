@@ -248,10 +248,10 @@ body{
     color: #afb3b9;
 }
 .col2-top-box .glyphicon-facetime-video{
-    color: #afb3b9;
+    color: black;
 }
 .col2-top-box .glyphicon-picture{
-    color: #4267b2;
+    color: black;
 }
 .col2-top-box-input2{
     position: absolute;
@@ -428,32 +428,33 @@ body{
         padding: 0px !important;
     }
     .search-width {
-        max-width: 260px !important;
-        min-width: 260px !important;
+        max-width: 300px !important;
+        min-width: 300px !important;
     }
     @media (max-width: 375px) and (min-width: 361px){
         .search-width{
-            max-width: 220px !important;
-            min-width: 220px !important;
+            max-width: 270px !important;
+            min-width: 270px !important;
         }
     }
     @media (max-width: 360px) and (min-width:321px){
         .search-width{
-            max-width: 200px !important;
-            min-width: 200px !important;
+            max-width: 250px !important;
+            min-width: 250px !important;
         }
 
     }
     @media (max-width: 320px) {
         .search-width{
-            max-width: 170px !important;
-            min-width: 170px !important;
+            max-width: 210px !important;
+            min-width: 210px !important;
         }
     }
     .mobile-right-navbar {
         display: inline;
         padding: 0 12px 0 12px;
         font-size: 20px;
+        margin:0;
     }
     .badge{
         font-size: 20px;
@@ -464,6 +465,15 @@ body{
     }
     .container{
         overflow: hidden !important;
+    }
+    .col2-top-box .vertical-line{
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    .nav-bar-leftcontent-margin{
+        margin: 0 !important;
+        height: 100%;
+        overflow: hidden;
     }
 
 }
@@ -554,4 +564,11 @@ body{
 }
 .col1-icons-box .circular-image{
     margin-bottom: 2px;
+}
+.language-button{
+    margin-left: 2px;
+    font-weight: bold;
+}
+.language-box .color{
+    color: #4267b2;
 }
