@@ -146,7 +146,7 @@ body{
     margin-right: 2px;
 }
 .col1-bottom-padding{
-    padding: 5px 5px 5px 15px;
+    padding: 5px 5px 5px 0;
 }
 
 .badge-size{
@@ -539,4 +539,19 @@ body{
     border: none;
     background-color: #f6f7f9;
     
+}
+.col1-icons-box a{
+    padding: 2px 0 2px 0  !important;
+    height: 28px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.col1-icons-box p{
+    padding: 0px !important;
+}
+.col1-icons-box li{
+    width: 184px;
+}
+.col1-icons-box .circular-image{
+    margin-bottom: 2px;
 }
