@@ -10,7 +10,7 @@ body{
 }
 
 #my-navbcolor a{
-    color: white !important;
+    color: white ;
 }
 .navbar-box{
     height: 42px !important;
@@ -571,4 +571,7 @@ body{
 }
 .language-box .color{
     color: #4267b2;
+}
+.dropdown li >a{
+    color: black !important;
 }
